@@ -156,6 +156,11 @@ return [
         eddie\Providers\EventServiceProvider::class,
         eddie\Providers\RouteServiceProvider::class,
 
+        /*
+         * Custom
+         */
+        \Pacuna\Schemas\SchemasServiceProvider::class,
+
     ],
 
     /*
@@ -201,6 +206,7 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+        'PGSchema'  => \Pacuna\Schemas\Facades\PGSchema::class,
 
     ],
 

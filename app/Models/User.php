@@ -1,6 +1,6 @@
 <?php
 
-namespace eddie;
+namespace eddie\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
