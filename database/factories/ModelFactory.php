@@ -25,3 +25,10 @@ $factory->define(\eddie\Models\Project::class, function(Faker\Generator $faker) 
         'name' => $faker->name
     ];
 });
+
+$factory->define(\eddie\Models\Actor::class, function(\Faker\Generator $faker) {
+    return [
+        'name' => $faker->name,
+        'description' => $faker->text(10)
+    ];
+});
