@@ -29,5 +29,4 @@ class SchemaTest extends TestCase
         $this->assertEquals(0, count($schemas));
     }
 
-
 }
