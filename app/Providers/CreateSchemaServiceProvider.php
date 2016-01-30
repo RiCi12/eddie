@@ -17,7 +17,7 @@ class CreateSchemaServiceProvider extends ServiceProvider
     {
         Project::created(function(Project $project) {
             PGSchema::create($project->schema_name);
-            PGSchema::migrate($project->schema_name, ["--path" => "eddie/database/migations"]);
+            PGSchema::migrate($project->schema_name, ["--path" => "eddie/database/migations/schemamigrations"]);
         });
     }
 
