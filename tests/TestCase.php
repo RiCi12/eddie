@@ -2,6 +2,14 @@
 
 class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
+
+    /**
+     * Name of the schema used for testing purposes.
+     *
+     * @var string
+     */
+    protected $testSchemaName = "SchemaTestName";
+
     /**
      * The base URL to use while testing the application.
      *

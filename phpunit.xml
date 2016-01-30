@@ -10,7 +10,9 @@
          stopOnFailure="false">
     <testsuites>
         <testsuite name="Application Test Suite">
-            <directory>./tests/</directory>
+            <file>tests/ProjectCreateTest.php</file>
+            <directory>tests/Models</directory>
+            <file>tests/ProjectDeleteTest.php</file>
         </testsuite>
     </testsuites>
     <filter>

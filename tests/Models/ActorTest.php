@@ -6,6 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class ActorTest extends TestCase
 {
+
     /**
      * Simple creation test.
      *

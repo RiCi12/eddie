@@ -161,6 +161,9 @@ return [
          */
         \Pacuna\Schemas\SchemasServiceProvider::class,
 
+        \eddie\Providers\CreateSchemaServiceProvider::class,
+        \eddie\Providers\DeleteSchemaServiceProvider::class,
+
     ],
 
     /*
